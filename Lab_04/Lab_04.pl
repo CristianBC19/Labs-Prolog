@@ -42,7 +42,7 @@ find_path(Start, Goal, Path) :-
     reverse(RevPath, Path),
     format('~nFinal Path: ~w~n', [Path]).
 
-% ----------- 5: Extention -------------------
+% ----------- 5: Extension -------------------
 
 why(X, Y) :-
     reason(X, Y, Explanation),
@@ -54,4 +54,5 @@ through a maze represented as a graph. It uses facts, rules,
 recursion, and symbolic reasoning to find a path from an 
 entrance to an exit, explaining each step.
 */
+
 
